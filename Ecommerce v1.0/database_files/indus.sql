@@ -346,9 +346,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `user_type`, `image_path`, `register_date`) VALUES
-(1, 'M.Ali', 'ali@indussh.co.pk', '$5$rounds=535000$G.chAaKIpI5B0f2t$RCZNn9jv3TltZ/LKPXhB4etncGkUnXQ2ExSrOwkmk8.', 'admin', '../../static/uploads/default.jpg', '2019-03-10 11:24:09'),
-(23, 'Armughan', 'armughan@indush.co.pkh', '$5$rounds=535000$nkMCIdFkyK4zu4EZ$9WNa4Wt5y9LXGFcusNss05bR.RzrI5yKuXwG3NQx1O7', 'admin', '../../static/uploads/default.jpg', '2019-03-15 15:40:52'),
-(24, 'Daniyal', 'daniyal@indushh.co.pk', '$5$rounds=535000$SHs5OqfNbARc3r0F$CedPPwT6TY/.uz84qpwRrWtWToALEB0qRWlTHEyYwn/', 'admin', '../../static/uploads/dave_avatar.jpg', '2019-03-15 15:43:14');
+(1, 'Lead Admin', 'admin1@example.com', '$5$rounds=535000$G.chAaKIpI5B0f2t$RCZNn9jv3TltZ/LKPXhB4etncGkUnXQ2ExSrOwkmk8.', 'admin', '../../static/uploads/default.jpg', '2019-03-10 11:24:09'),
+(23, 'Admin User', 'admin2@example.com', '$5$rounds=535000$nkMCIdFkyK4zu4EZ$9WNa4Wt5y9LXGFcusNss05bR.RzrI5yKuXwG3NQx1O7', 'admin', '../../static/uploads/default.jpg', '2019-03-15 15:40:52'),
+(24, 'System Admin', 'admin3@example.com', '$5$rounds=535000$SHs5OqfNbARc3r0F$CedPPwT6TY/.uz84qpwRrWtWToALEB0qRWlTHEyYwn/', 'admin', '../../static/uploads/dave_avatar.jpg', '2019-03-15 15:43:14');
 
 --
 -- Indexes for dumped tables

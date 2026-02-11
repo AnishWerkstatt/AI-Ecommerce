@@ -35,7 +35,7 @@ app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'indus'
+app.config['MYSQL_DB'] = 'ecommerce_db'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 # Config Paths
@@ -1131,7 +1131,7 @@ def get_bot_response():
 ''' 
 
 if __name__ == '__main__':
-    app.secret_key = 'indush'
+    app.secret_key = 'ecommerce_secret_key'
     app.run(debug=True, port=5050)
 
 
